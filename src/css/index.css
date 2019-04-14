@@ -1,0 +1,49 @@
+@media only screen and (min-width:768px) {
+    #container {
+        height: 433px;
+        width: 650px;
+        margin: 0 auto
+    }
+
+    .level {
+        margin: 20px
+    }
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/background.jpg) no-repeat
+}
+
+.level {
+    font-size: 49px
+}
+
+table {
+    margin: 0 auto
+}
+
+td {
+    border: 0;
+    height: 50px;
+    width: 50px
+}
+
+.glyphicon {
+    font-size: 30px
+}
+
+.jumbotron {
+    padding-top: 10px !important
+}
+
+.fa-square{
+	color: #404040
+}
+
+.fa-male{
+	color: #8B1A1A
+}
